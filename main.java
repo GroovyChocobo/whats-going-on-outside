@@ -24,6 +24,13 @@ public class WeatherApp{
             }
             
             urlScanner.close();
+
+            System.out.println("Weather Data: ");
+
+            System.out.println(jsonData.toString());
+
+
+
         }
     }
 }
