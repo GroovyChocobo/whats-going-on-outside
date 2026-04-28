@@ -16,6 +16,13 @@ public class WeatherApp{
 
             URL url = new URL(urlString); 
             Scanner urlScanner = new Scanner(url.openStream());
+
+            StringBuilder jsonData = new StringBuilder();
+            
+            while (urlScanner.hasNext()) {
+                jsonData.appened(urlScanner.nextLine());
+            }
+            urlScanner close;
         }
     }
 }
