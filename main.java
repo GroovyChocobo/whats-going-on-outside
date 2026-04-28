@@ -9,5 +9,9 @@ public class WeatherApp{
         String city = input.nextLine();
 
         String apiKey = "39c4692421824b45885131102262304"
+
+        String urlString = "http//api.weatherapi.com/vl/current.json/key=" + apiKey +"&q=" + city;
+
+        
     }
 }
