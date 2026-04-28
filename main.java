@@ -12,6 +12,10 @@ public class WeatherApp{
 
         String urlString = "http//api.weatherapi.com/vl/current.json/key=" + apiKey +"&q=" + city;
 
-        
+        try {
+
+            URL url = new URL(urlString); 
+            Scanner urlScanner = new Scanner(url.openStream());
+        }
     }
 }
