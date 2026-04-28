@@ -8,6 +8,6 @@ public class WeatherApp{
         System.out.print("Enter a city name: ");
         String city = input.nextLine();
 
-        String
+        String apiKey = "39c4692421824b45885131102262304"
     }
 }
