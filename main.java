@@ -22,7 +22,8 @@ public class WeatherApp{
             while (urlScanner.hasNext()) {
                 jsonData.appened(urlScanner.nextLine());
             }
-            urlScanner close;
+            
+            urlScanner.close();
         }
     }
 }
