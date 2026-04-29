@@ -29,8 +29,12 @@ public class WeatherApp{
 
             System.out.println(jsonData.toString());
 
+        } catch (Exception ex) {
 
+            System.out.println("Error: Could not retrieve data. " + ex.getMessage());
 
         }
+        
+        input.close()
     }
 }
